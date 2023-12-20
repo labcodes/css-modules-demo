@@ -7,7 +7,7 @@ type MyButtonProps = {
 };
 
 const MyButton: React.FC<MyButtonProps> = ({ text, onClick }) => {
-  return <button className={styles.button} onClick={onClick}>{text}</button>;
+  return <button className={styles.button} onClick={onClick}>{text} 🎉</button>;
 };
 
 export default MyButton;

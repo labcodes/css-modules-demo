@@ -1,5 +1,5 @@
 .button {
-  background-color: blue;
+  background-color: #bc442f;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -8,5 +8,5 @@
   font-size: 16px;
 }
 .button:hover {
-  background-color: darkblue;
+  background-color: #a2331c;
 }
