@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# CSS Modules Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This React project demonstrates the integration of CSS Modules for component styling and incorporates `react-confetti` for interactive UI effects. The main feature of this application is a button that, when clicked, changes the background color of the page and triggers a confetti animation, creating a visually engaging user experience.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- **React with CSS Modules**: The application showcases the use of CSS Modules for styling React components. This approach modularizes CSS by allowing styles to be defined in separate files and imported as JavaScript objects, ensuring style encapsulation and reducing the risk of style conflicts.
+- **Interactive UI with Confetti Effect**: Utilizing `react-confetti` version 6.1.0, the application creates a confetti explosion effect when the button is clicked, enhancing the interactivity of the UI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React
+- CSS Modules
+- react-confetti (version 6.1.0)
 
-### `npm test`
+## Running the Project Locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project on your local machine, follow these steps:
 
-### `npm run build`
+1. **Clone the Repository**
+   
+   Clone the project repository to your local machine using:
+   ```
+   git clone git@github.com:labcodes/css-modules-demo.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the Project Directory**
+   
+   After cloning, move into the project directory:
+   ```
+   cd css-modules-demo
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Install Dependencies**
+   
+   Install the necessary dependencies by running:
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Start the Development Server**
+   
+   Launch the development server with:
+   ```
+   npm start
+   ```
+   This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm run eject`
+5. **Explore the App**
+   
+   The page will reload if you make edits. You will also see any lint errors in the console.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to contribute to this project by submitting pull requests or suggesting features or improvements.
